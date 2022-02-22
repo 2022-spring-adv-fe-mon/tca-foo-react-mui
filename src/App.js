@@ -1,10 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
+import { Home } from './Home';
 
-import Button from '@mui/material/Button';
-
-const Home = () => <h2>Home</h2>;
 const SetupGame = () => <h2>Setup Game</h2>;
 const PlayGame = () => <h2>Play Game</h2>;
 
